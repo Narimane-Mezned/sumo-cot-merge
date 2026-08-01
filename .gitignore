@@ -1,0 +1,6 @@
+﻿outputs/*.pt
+*.pt
+__pycache__/
+.venv/
+venv*/
+*.pyc

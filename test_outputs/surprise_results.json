@@ -1,0 +1,16 @@
+{
+  "normal": {
+    "attack": "none",
+    "frame": "transition_normal_t.png",
+    "surprise_score_full": 0.004859674721956253,
+    "surprise_score_physical": 0.22696572542190552,
+    "risk_head": 0.5144180059432983
+  },
+  "traffic_light_tampering": {
+    "attack": "traffic_light_tampering",
+    "frame": "transition_attack_t.png",
+    "surprise_score_full": 0.005109802354127169,
+    "surprise_score_physical": 0.26367664337158203,
+    "risk_head": 0.5539289712905884
+  }
+}

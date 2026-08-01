@@ -1,0 +1,32 @@
+{
+  "normal": {
+    "attack": "none",
+    "mapped_scenario": null,
+    "frame_t": "surprise_normal_t.png",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0
+    }
+  },
+  "traffic_light_tampering": {
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "frame_t": "surprise_traffic_light_t.png",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0
+    }
+  }
+}

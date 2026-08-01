@@ -1,0 +1,852 @@
+{
+  "normal_ep0": {
+    "frame_t": "normal_ep0_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep1": {
+    "frame_t": "normal_ep1_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep2": {
+    "frame_t": "normal_ep2_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.955,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.109,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep3": {
+    "frame_t": "normal_ep3_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.918,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep4": {
+    "frame_t": "normal_ep4_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.981,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.981,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep5": {
+    "frame_t": "normal_ep5_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.928,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.927,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep6": {
+    "frame_t": "normal_ep6_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep7": {
+    "frame_t": "normal_ep7_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.759,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "traffic_light_tampering_ep0": {
+    "frame_t": "traffic_light_tampering_ep0_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.952,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep1": {
+    "frame_t": "traffic_light_tampering_ep1_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.566,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep2": {
+    "frame_t": "traffic_light_tampering_ep2_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.784,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep3": {
+    "frame_t": "traffic_light_tampering_ep3_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.971,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep4": {
+    "frame_t": "traffic_light_tampering_ep4_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.75,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep5": {
+    "frame_t": "traffic_light_tampering_ep5_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep6": {
+    "frame_t": "traffic_light_tampering_ep6_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.883,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.847,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep7": {
+    "frame_t": "traffic_light_tampering_ep7_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.579,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "universal_perturbation_ep0": {
+    "frame_t": "universal_perturbation_ep0_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.536,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep1": {
+    "frame_t": "universal_perturbation_ep1_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.57,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.902,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep2": {
+    "frame_t": "universal_perturbation_ep2_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep3": {
+    "frame_t": "universal_perturbation_ep3_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.516,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.609,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep4": {
+    "frame_t": "universal_perturbation_ep4_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.975,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.989,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep6": {
+    "frame_t": "universal_perturbation_ep6_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep7": {
+    "frame_t": "universal_perturbation_ep7_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.758,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.955,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep0": {
+    "frame_t": "sensor_spoofing_ep0_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.876,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep1": {
+    "frame_t": "sensor_spoofing_ep1_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.626,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep2": {
+    "frame_t": "sensor_spoofing_ep2_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.998,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep3": {
+    "frame_t": "sensor_spoofing_ep3_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.312,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep4": {
+    "frame_t": "sensor_spoofing_ep4_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep5": {
+    "frame_t": "sensor_spoofing_ep5_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.935,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep6": {
+    "frame_t": "sensor_spoofing_ep6_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep7": {
+    "frame_t": "sensor_spoofing_ep7_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.632,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "fake_safety_ep1": {
+    "frame_t": "fake_safety_ep1_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.481,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.896,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep2": {
+    "frame_t": "fake_safety_ep2_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.966,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep3": {
+    "frame_t": "fake_safety_ep3_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.875,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep4": {
+    "frame_t": "fake_safety_ep4_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.523,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep5": {
+    "frame_t": "fake_safety_ep5_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.961,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep7": {
+    "frame_t": "fake_safety_ep7_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.867,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.787,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep1": {
+    "frame_t": "fake_emergency_ep1_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep2": {
+    "frame_t": "fake_emergency_ep2_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.692,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.137,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep3": {
+    "frame_t": "fake_emergency_ep3_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.951,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep4": {
+    "frame_t": "fake_emergency_ep4_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.633,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep7": {
+    "frame_t": "fake_emergency_ep7_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.657,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.504,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "sybil_ep0": {
+    "frame_t": "sybil_ep0_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.349,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep1": {
+    "frame_t": "sybil_ep1_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.982,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep2": {
+    "frame_t": "sybil_ep2_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.888,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.853,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep3": {
+    "frame_t": "sybil_ep3_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.709,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep4": {
+    "frame_t": "sybil_ep4_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep5": {
+    "frame_t": "sybil_ep5_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.465,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.929,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep6": {
+    "frame_t": "sybil_ep6_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.715,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep7": {
+    "frame_t": "sybil_ep7_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.808,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.77,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  }
+}

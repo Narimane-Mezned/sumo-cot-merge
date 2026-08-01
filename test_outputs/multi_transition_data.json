@@ -1,0 +1,290 @@
+{
+  "normal_ep0": {
+    "frame_t": "normal_ep0_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.781,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.781,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep1": {
+    "frame_t": "normal_ep1_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.867,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.869,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep2": {
+    "frame_t": "normal_ep2_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.717,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.995,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep3": {
+    "frame_t": "normal_ep3_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep4": {
+    "frame_t": "normal_ep4_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.202,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep5": {
+    "frame_t": "normal_ep5_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.945,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.996,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep6": {
+    "frame_t": "normal_ep6_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep8": {
+    "frame_t": "normal_ep8_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.91,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.899,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep9": {
+    "frame_t": "normal_ep9_t.png",
+    "attack": "none",
+    "t": {
+      "speed_ratio": 0.462,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "attack_ep0": {
+    "frame_t": "attack_ep0_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.106,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep1": {
+    "frame_t": "attack_ep1_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.742,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep3": {
+    "frame_t": "attack_ep3_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.905,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.801,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep4": {
+    "frame_t": "attack_ep4_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.999,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.027,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep5": {
+    "frame_t": "attack_ep5_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.954,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep6": {
+    "frame_t": "attack_ep6_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.891,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep7": {
+    "frame_t": "attack_ep7_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.947,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.473,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep8": {
+    "frame_t": "attack_ep8_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.656,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "attack_ep9": {
+    "frame_t": "attack_ep9_t.png",
+    "attack": "traffic_light_tampering",
+    "t": {
+      "speed_ratio": 0.883,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "per_episode": {
+    "normal_ep0": {
+      "condition": "normal",
+      "surprise_full": 0.004918625112622976,
+      "surprise_physical": 0.23215781152248383,
+      "risk_head": 0.5618135929107666
+    },
+    "normal_ep1": {
+      "condition": "normal",
+      "surprise_full": 0.004918625112622976,
+      "surprise_physical": 0.23215781152248383,
+      "risk_head": 0.5618135929107666
+    },
+    "normal_ep2": {
+      "condition": "normal",
+      "surprise_full": 0.004944551270455122,
+      "surprise_physical": 0.23377881944179535,
+      "risk_head": 0.5602229237556458
+    },
+    "normal_ep3": {
+      "condition": "normal",
+      "surprise_full": 0.004515400622040033,
+      "surprise_physical": 0.20594817399978638,
+      "risk_head": 0.5618135929107666
+    },
+    "normal_ep4": {
+      "condition": "normal",
+      "surprise_full": 0.004822214134037495,
+      "surprise_physical": 0.22586610913276672,
+      "risk_head": 0.5611373782157898
+    },
+    "normal_ep5": {
+      "condition": "normal",
+      "surprise_full": 0.004558876156806946,
+      "surprise_physical": 0.20866847038269043,
+      "risk_head": 0.5592732429504395
+    },
+    "normal_ep6": {
+      "condition": "normal",
+      "surprise_full": 0.004967569373548031,
+      "surprise_physical": 0.227065771818161,
+      "risk_head": 0.5005927681922913
+    },
+    "normal_ep7": {
+      "condition": "normal",
+      "surprise_full": 0.00491448724642396,
+      "surprise_physical": 0.23150257766246796,
+      "risk_head": 0.552365779876709
+    },
+    "traffic_light_tampering_ep0": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.004625092726200819,
+      "surprise_physical": 0.2317999303340912,
+      "risk_head": 0.5601174831390381
+    },
+    "traffic_light_tampering_ep1": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.005448999814689159,
+      "surprise_physical": 0.28520631790161133,
+      "risk_head": 0.5618135929107666
+    },
+    "traffic_light_tampering_ep2": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.004614905454218388,
+      "surprise_physical": 0.23153069615364075,
+      "risk_head": 0.5534510612487793
+    },
+    "traffic_light_tampering_ep3": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.007189752068370581,
+      "surprise_physical": 0.39844679832458496,
+      "risk_head": 0.5607856512069702
+    },
+    "traffic_light_tampering_ep4": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.004613268654793501,
+      "surprise_physical": 0.23149250447750092,
+      "risk_head": 0.5519751906394958
+    },
+    "traffic_light_tampering_ep5": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.0071914284490048885,
+      "surprise_physical": 0.3984641432762146,
+      "risk_head": 0.5618135929107666
+    },
+    "traffic_light_tampering_ep6": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.006460515782237053,
+      "surprise_physical": 0.3513150215148926,
+      "risk_head": 0.5576832294464111
+    },
+    "traffic_light_tampering_ep7": {
+      "condition": "traffic_light_tampering",
+      "surprise_full": 0.0071754660457372665,
+      "surprise_physical": 0.39816924929618835,
+      "risk_head": 0.5442513227462769
+    },
+    "universal_perturbation_ep0": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.00491844117641449,
+      "surprise_physical": 0.2311309278011322,
+      "risk_head": 0.5242534875869751
+    },
+    "universal_perturbation_ep1": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.0043107932433485985,
+      "surprise_physical": 0.2006346583366394,
+      "risk_head": 0.5438346266746521
+    },
+    "universal_perturbation_ep2": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.0047509861178696156,
+      "surprise_physical": 0.23183473944664001,
+      "risk_head": 0.5618135929107666
+    },
+    "universal_perturbation_ep3": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.00317922281101346,
+      "surprise_physical": 0.12671127915382385,
+      "risk_head": 0.5413344502449036
+    },
+    "universal_perturbation_ep4": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.004701379220932722,
+      "surprise_physical": 0.22848951816558838,
+      "risk_head": 0.5609263181686401
+    },
+    "universal_perturbation_ep6": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.004755957052111626,
+      "surprise_physical": 0.23215781152248383,
+      "risk_head": 0.5618135929107666
+    },
+    "universal_perturbation_ep7": {
+      "condition": "universal_perturbation",
+      "surprise_full": 0.004546531941741705,
+      "surprise_physical": 0.21718434989452362,
+      "risk_head": 0.5523223876953125
+    },
+    "sensor_spoofing_ep0": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.002200599992647767,
+      "surprise_physical": 0.0654105544090271,
+      "risk_head": 0.5574356317520142
+    },
+    "sensor_spoofing_ep1": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.004779554903507233,
+      "surprise_physical": 0.23148566484451294,
+      "risk_head": 0.5464274287223816
+    },
+    "sensor_spoofing_ep2": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.004745712038129568,
+      "surprise_physical": 0.23149189352989197,
+      "risk_head": 0.5618135929107666
+    },
+    "sensor_spoofing_ep3": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.004917938262224197,
+      "surprise_physical": 0.22952090203762054,
+      "risk_head": 0.514647901058197
+    },
+    "sensor_spoofing_ep4": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.004911536816507578,
+      "surprise_physical": 0.227065771818161,
+      "risk_head": 0.5005927681922913
+    },
+    "sensor_spoofing_ep5": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.002196607645601034,
+      "surprise_physical": 0.06546954810619354,
+      "risk_head": 0.5595195293426514
+    },
+    "sensor_spoofing_ep6": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.0021924276370555162,
+      "surprise_physical": 0.06552840769290924,
+      "risk_head": 0.5618135929107666
+    },
+    "sensor_spoofing_ep7": {
+      "condition": "sensor_spoofing",
+      "surprise_full": 0.002218852750957012,
+      "surprise_physical": 0.06508060544729233,
+      "risk_head": 0.5467051863670349
+    },
+    "fake_safety_ep1": {
+      "condition": "fake_safety",
+      "surprise_full": 0.007027233950793743,
+      "surprise_physical": 0.36681509017944336,
+      "risk_head": 0.5396732091903687
+    },
+    "fake_safety_ep2": {
+      "condition": "fake_safety",
+      "surprise_full": 0.007388524245470762,
+      "surprise_physical": 0.38903650641441345,
+      "risk_head": 0.5618135929107666
+    },
+    "fake_safety_ep3": {
+      "condition": "fake_safety",
+      "surprise_full": 0.006959009449928999,
+      "surprise_physical": 0.3611180782318115,
+      "risk_head": 0.5618135929107666
+    },
+    "fake_safety_ep4": {
+      "condition": "fake_safety",
+      "surprise_full": 0.00569742638617754,
+      "surprise_physical": 0.2791152000427246,
+      "risk_head": 0.5618135929107666
+    },
+    "fake_safety_ep5": {
+      "condition": "fake_safety",
+      "surprise_full": 0.007557570934295654,
+      "surprise_physical": 0.40016764402389526,
+      "risk_head": 0.5604339838027954
+    },
+    "fake_safety_ep7": {
+      "condition": "fake_safety",
+      "surprise_full": 0.006576697342097759,
+      "surprise_physical": 0.33670246601104736,
+      "risk_head": 0.5570856928825378
+    },
+    "fake_emergency_ep1": {
+      "condition": "fake_emergency",
+      "surprise_full": 0.00748347258195281,
+      "surprise_physical": 0.3955967426300049,
+      "risk_head": 0.5005927681922913
+    },
+    "fake_emergency_ep2": {
+      "condition": "fake_emergency",
+      "surprise_full": 0.005027088802307844,
+      "surprise_physical": 0.2364872694015503,
+      "risk_head": 0.549481987953186
+    },
+    "fake_emergency_ep3": {
+      "condition": "fake_emergency",
+      "surprise_full": 0.0075570764020085335,
+      "surprise_physical": 0.4001677930355072,
+      "risk_head": 0.5600822567939758
+    },
+    "fake_emergency_ep4": {
+      "condition": "fake_emergency",
+      "surprise_full": 0.006023414433002472,
+      "surprise_physical": 0.3003044128417969,
+      "risk_head": 0.5618135929107666
+    },
+    "fake_emergency_ep7": {
+      "condition": "fake_emergency",
+      "surprise_full": 0.0056288777850568295,
+      "surprise_physical": 0.2756669223308563,
+      "risk_head": 0.54786217212677
+    },
+    "sybil_ep0": {
+      "condition": "sybil",
+      "surprise_full": 0.004736767616122961,
+      "surprise_physical": 0.2297818958759308,
+      "risk_head": 0.5162168741226196
+    },
+    "sybil_ep1": {
+      "condition": "sybil",
+      "surprise_full": 0.004749553743749857,
+      "surprise_physical": 0.2262124866247177,
+      "risk_head": 0.5618135929107666
+    },
+    "sybil_ep2": {
+      "condition": "sybil",
+      "surprise_full": 0.004135563038289547,
+      "surprise_physical": 0.18668720126152039,
+      "risk_head": 0.5578600764274597
+    },
+    "sybil_ep3": {
+      "condition": "sybil",
+      "surprise_full": 0.0022356617264449596,
+      "surprise_physical": 0.06578105688095093,
+      "risk_head": 0.531609296798706
+    },
+    "sybil_ep4": {
+      "condition": "sybil",
+      "surprise_full": 0.0046734618954360485,
+      "surprise_physical": 0.227065771818161,
+      "risk_head": 0.5005927681922913
+    },
+    "sybil_ep5": {
+      "condition": "sybil",
+      "surprise_full": 0.004443651530891657,
+      "surprise_physical": 0.20853275060653687,
+      "risk_head": 0.5389066934585571
+    },
+    "sybil_ep6": {
+      "condition": "sybil",
+      "surprise_full": 0.004820968955755234,
+      "surprise_physical": 0.23189817368984222,
+      "risk_head": 0.5504722595214844
+    },
+    "sybil_ep7": {
+      "condition": "sybil",
+      "surprise_full": 0.0037825230974704027,
+      "surprise_physical": 0.16405156254768372,
+      "risk_head": 0.5544955730438232
+    }
+  },
+  "summary": {
+    "normal": {
+      "n_episodes": 8,
+      "surprise_physical_mean": 0.22464319318532944,
+      "surprise_physical_std": 0.01034111769602879,
+      "surprise_full_mean": 0.004820043628569692,
+      "surprise_full_std": 0.00016831619578094062,
+      "risk_head_mean": 0.5523791089653969,
+      "risk_head_std": 0.01979461897969044
+    },
+    "traffic_light_tampering": {
+      "n_episodes": 8,
+      "surprise_physical_mean": 0.3158030826598406,
+      "surprise_physical_std": 0.074086873182716,
+      "surprise_full_mean": 0.005914928624406457,
+      "surprise_full_std": 0.0011405257434834895,
+      "risk_head_mean": 0.5564863905310631,
+      "risk_head_std": 0.005800001095656154
+    },
+    "universal_perturbation": {
+      "n_episodes": 7,
+      "surprise_physical_mean": 0.2097347549029759,
+      "surprise_physical_std": 0.035520508951552135,
+      "surprise_full_mean": 0.004451901651918888,
+      "surprise_full_std": 0.000549074194352458,
+      "risk_head_mean": 0.549471208027431,
+      "risk_head_std": 0.012972107460864742
+    },
+    "sensor_spoofing": {
+      "n_episodes": 8,
+      "surprise_physical_mean": 0.14763166848570108,
+      "surprise_physical_std": 0.08226952842684629,
+      "surprise_full_mean": 0.003520403755828738,
+      "surprise_full_std": 0.0013194255186221198,
+      "risk_head_mean": 0.5436194539070129,
+      "risk_head_std": 0.021834049048227583
+    },
+    "fake_safety": {
+      "n_episodes": 6,
+      "surprise_physical_mean": 0.3554924974838893,
+      "surprise_physical_std": 0.039722945436211535,
+      "surprise_full_mean": 0.00686774371812741,
+      "surprise_full_std": 0.0006103538815591527,
+      "risk_head_mean": 0.5571056107680002,
+      "risk_head_std": 0.00797352260207229
+    },
+    "fake_emergency": {
+      "n_episodes": 5,
+      "surprise_physical_mean": 0.32164462804794314,
+      "surprise_physical_std": 0.06550714866410329,
+      "surprise_full_mean": 0.0063439860008656975,
+      "surprise_full_std": 0.001011768957008628,
+      "risk_head_mean": 0.543966555595398,
+      "risk_head_std": 0.02238353779901979
+    },
+    "sybil": {
+      "n_episodes": 8,
+      "surprise_physical_mean": 0.19250136241316795,
+      "surprise_physical_std": 0.052952008969241356,
+      "surprise_full_mean": 0.004197268950520083,
+      "surprise_full_std": 0.0008136543906981162,
+      "risk_head_mean": 0.5389958918094635,
+      "risk_head_std": 0.020299954961805464
+    }
+  },
+  "significance": {
+    "traffic_light_tampering": {
+      "surprise_physical": {
+        "t": 3.2241970956996986,
+        "p": 0.013828069086565632
+      },
+      "risk_head": {
+        "t": 0.5268300991041988,
+        "p": 0.6122736570000987
+      }
+    },
+    "universal_perturbation": {
+      "surprise_physical": {
+        "t": -0.9926582929329381,
+        "p": 0.35453260210723614
+      },
+      "risk_head": {
+        "t": -0.3172379628549951,
+        "p": 0.7564269474292726
+      }
+    },
+    "sensor_spoofing": {
+      "surprise_physical": {
+        "t": -2.457319521064808,
+        "p": 0.042610958665215484
+      },
+      "risk_head": {
+        "t": -0.7863899465953277,
+        "p": 0.44487007858800903
+      }
+    },
+    "fake_safety": {
+      "surprise_physical": {
+        "t": 7.193655799820054,
+        "p": 0.0005430218444053838
+      },
+      "risk_head": {
+        "t": 0.5702836087804433,
+        "p": 0.5812834348565284
+      }
+    },
+    "fake_emergency": {
+      "surprise_physical": {
+        "t": 2.9406885038247386,
+        "p": 0.04091306794116603
+      },
+      "risk_head": {
+        "t": -0.624901586122786,
+        "p": 0.5505295416536133
+      }
+    },
+    "sybil": {
+      "surprise_physical": {
+        "t": -1.576193096348552,
+        "p": 0.1559594507403729
+      },
+      "risk_head": {
+        "t": -1.2488332366102017,
+        "p": 0.23221809960326145
+      }
+    }
+  }
+}
