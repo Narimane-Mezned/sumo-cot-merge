@@ -1,3 +1,4 @@
+
 import os
 import json
 import argparse
@@ -5,12 +6,15 @@ import random
 import traci
 import time
 
-SUMOCFG = "maps/basic_simulation/osm.sumocfg"
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+SUMOCFG = os.path.join(PROJECT_ROOT, "maps", "basic_simulation", "osm.sumocfg")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "test_outputs")
 VIEW_ID = "View #0"
-OUTPUT_DIR = "test_outputs"
 BOX_SIZE = 60
 MAX_WAIT_STEPS = 300
-REAL_ROUTE_IDS = ["d_l", "d_u", "l_d", "u_d"]  # confirmed real routes in this map
+REAL_ROUTE_IDS = ["d_l", "d_u", "l_d", "u_d"] 
 VTYPE = "car"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -54,7 +58,7 @@ def get_valid_vehicle():
 
 
 def try_spawn_phantom(phantom_id, near_veh_id):
-    """Spawn a real, valid phantom vehicle just ahead of near_veh_id."""
+    
     try:
         x, y = traci.vehicle.getPosition(near_veh_id)
         edge_id = traci.vehicle.getRoadID(near_veh_id)
@@ -68,7 +72,7 @@ def try_spawn_phantom(phantom_id, near_veh_id):
 
 
 def apply_attack(attack_name, veh_id):
-    """Applies the attack's real effect via TraCI. Returns near_stop_flag override if any."""
+    
     near_stop_flag = 0
 
     if attack_name == "traffic_light_tampering":
@@ -77,34 +81,49 @@ def apply_attack(attack_name, veh_id):
             traci.trafficlight.setRedYellowGreenState(tls_id, "r" * n_links)
 
     elif attack_name == "universal_perturbation":
-        if try_spawn_phantom(f"phantom_lead_{random.randint(0,99999)}", veh_id):
-            for _ in range(3):
-                traci.simulationStep()
-            for v in traci.vehicle.getIDList():
-                if v.startswith("phantom"):
-                    traci.vehicle.setSpeed(v, 0)  # phantom leader suddenly brakes
+       
+        try:
+            traci.vehicle.slowDown(veh_id, 0.0, 20.0) 
+        except Exception:
+            pass
 
     elif attack_name == "sensor_spoofing":
         try:
-            traci.vehicle.setSpeed(veh_id, 0)  # spoofed proximity reading forces hard brake
+            traci.vehicle.setSpeed(veh_id, 0)  
         except Exception:
             pass
 
     elif attack_name == "fake_safety":
-        if try_spawn_phantom(f"phantom_obstacle_{random.randint(0,99999)}", veh_id):
-            for v in traci.vehicle.getIDList():
-                if v.startswith("phantom"):
-                    traci.vehicle.setSpeed(v, 0)
-            near_stop_flag = 1
+        near_stop_flag = 1
+        try:
+            lane_id = traci.vehicle.getLaneID(veh_id)
+            pos_on_lane = traci.vehicle.getLanePosition(veh_id) + 15  # 15m ahead
+            own_route_id = traci.vehicle.getRouteID(veh_id)  
+            obstacle_id = f"phantom_obstacle_{random.randint(0,99999)}"
+            traci.vehicle.add(vehID=obstacle_id, routeID=own_route_id, typeID=VTYPE)
+            traci.vehicle.moveTo(obstacle_id, lane_id, pos_on_lane)
+            traci.vehicle.setSpeed(obstacle_id, 0.0)
+            traci.vehicle.setColor(obstacle_id, (255, 255, 0))
+        except Exception as e:
+            print(f"    (real-mechanism fake_safety spawn failed, falling back to direct enforcement: {e})")
+            traci.vehicle.slowDown(veh_id, 0.5, 20.0)
 
     elif attack_name == "fake_emergency":
         try:
-            traci.vehicle.slowDown(veh_id, 1.0, 3)  # forced yield to fake ambulance
+            traci.vehicle.slowDown(veh_id, 1.0, 3)  
             near_stop_flag = 1
         except Exception:
             pass
 
     elif attack_name == "sybil":
+       
+        try:
+            max_speed = traci.vehicle.getMaxSpeed(veh_id)
+            crawl_speed = max_speed * 0.15  
+            traci.vehicle.slowDown(veh_id, crawl_speed, 20.0)  
+        except Exception:
+            pass
+        
         try:
             x, y = traci.vehicle.getPosition(veh_id)
             edge_id = traci.vehicle.getRoadID(veh_id)
@@ -114,7 +133,7 @@ def apply_attack(attack_name, veh_id):
                 traci.vehicle.add(vid, routeID=route_id, typeID=VTYPE, departPos="0", departLane="0")
                 traci.vehicle.moveToXY(vid, edge_id, 0, x + (i * 7) - 12, y, keepRoute=2)
         except Exception as e:
-            print(f"    (sybil spawn failed: {e})")
+            print(f"    (sybil ghost-vehicle spawn failed, ego enforcement still applied: {e})")
 
     return near_stop_flag
 
@@ -162,8 +181,12 @@ def run_one_episode(attack_name, mapped_scenario, episode_idx):
     for _ in range(steps_after):
         traci.simulationStep()
 
-    check_id = veh_id if veh_id in traci.vehicle.getIDList() else get_valid_vehicle()
-    features_t1 = get_state_features(check_id) if check_id else None
+    check_id = veh_id if veh_id in traci.vehicle.getIDList() else None
+    if check_id is None:
+      
+        traci.close()
+        return None
+    features_t1 = get_state_features(check_id)
     if features_t1 is None:
         traci.close()
         return None

@@ -1,33 +1,16 @@
 {
-  "normal_ep0": {
-    "frame_t": "normal_ep0_t.png",
-    "attack": "normal",
-    "mapped_scenario": null,
-    "t": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    }
-  },
   "normal_ep1": {
     "frame_t": "normal_ep1_t.png",
     "attack": "normal",
     "mapped_scenario": null,
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.883,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.866,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -38,14 +21,14 @@
     "attack": "normal",
     "mapped_scenario": null,
     "t": {
-      "speed_ratio": 0.955,
+      "speed_ratio": 0.805,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.109,
-      "red_light": 1,
+      "speed_ratio": 0.805,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     }
@@ -55,13 +38,13 @@
     "attack": "normal",
     "mapped_scenario": null,
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.898,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.918,
+      "speed_ratio": 0.543,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -72,42 +55,8 @@
     "attack": "normal",
     "mapped_scenario": null,
     "t": {
-      "speed_ratio": 0.981,
+      "speed_ratio": 0.987,
       "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 0.981,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    }
-  },
-  "normal_ep5": {
-    "frame_t": "normal_ep5_t.png",
-    "attack": "normal",
-    "mapped_scenario": null,
-    "t": {
-      "speed_ratio": 0.928,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 0.927,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    }
-  },
-  "normal_ep6": {
-    "frame_t": "normal_ep6_t.png",
-    "attack": "normal",
-    "mapped_scenario": null,
-    "t": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
     },
@@ -123,8 +72,110 @@
     "attack": "normal",
     "mapped_scenario": null,
     "t": {
-      "speed_ratio": 0.759,
+      "speed_ratio": 0.514,
       "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.841,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep8": {
+    "frame_t": "normal_ep8_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.852,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep9": {
+    "frame_t": "normal_ep9_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep10": {
+    "frame_t": "normal_ep10_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep12": {
+    "frame_t": "normal_ep12_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.539,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.886,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep13": {
+    "frame_t": "normal_ep13_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.227,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    }
+  },
+  "normal_ep14": {
+    "frame_t": "normal_ep14_t.png",
+    "attack": "normal",
+    "mapped_scenario": null,
+    "t": {
+      "speed_ratio": 0.637,
+      "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
     },
@@ -140,30 +191,13 @@
     "attack": "traffic_light_tampering",
     "mapped_scenario": "red_light",
     "t": {
-      "speed_ratio": 0.952,
+      "speed_ratio": 0.926,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
-      "near_stop": 0,
-      "mapped_scenario": "red_light"
-    }
-  },
-  "traffic_light_tampering_ep1": {
-    "frame_t": "traffic_light_tampering_ep1_t.png",
-    "attack": "traffic_light_tampering",
-    "mapped_scenario": "red_light",
-    "t": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 0.566,
+      "speed_ratio": 0.926,
       "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": "red_light"
@@ -174,7 +208,7 @@
     "attack": "traffic_light_tampering",
     "mapped_scenario": "red_light",
     "t": {
-      "speed_ratio": 0.784,
+      "speed_ratio": 0.732,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -191,24 +225,7 @@
     "attack": "traffic_light_tampering",
     "mapped_scenario": "red_light",
     "t": {
-      "speed_ratio": 0.971,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
       "speed_ratio": 1.0,
-      "red_light": 1,
-      "near_stop": 0,
-      "mapped_scenario": "red_light"
-    }
-  },
-  "traffic_light_tampering_ep4": {
-    "frame_t": "traffic_light_tampering_ep4_t.png",
-    "attack": "traffic_light_tampering",
-    "mapped_scenario": "red_light",
-    "t": {
-      "speed_ratio": 0.75,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -225,13 +242,13 @@
     "attack": "traffic_light_tampering",
     "mapped_scenario": "red_light",
     "t": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
+      "speed_ratio": 0.0,
+      "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.0,
       "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": "red_light"
@@ -242,13 +259,13 @@
     "attack": "traffic_light_tampering",
     "mapped_scenario": "red_light",
     "t": {
-      "speed_ratio": 0.883,
+      "speed_ratio": 0.613,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.847,
+      "speed_ratio": 0.0,
       "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": "red_light"
@@ -259,7 +276,75 @@
     "attack": "traffic_light_tampering",
     "mapped_scenario": "red_light",
     "t": {
-      "speed_ratio": 0.579,
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep8": {
+    "frame_t": "traffic_light_tampering_ep8_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep9": {
+    "frame_t": "traffic_light_tampering_ep9_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep10": {
+    "frame_t": "traffic_light_tampering_ep10_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.932,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
+  "traffic_light_tampering_ep13": {
+    "frame_t": "traffic_light_tampering_ep13_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 0.374,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -271,19 +356,36 @@
       "mapped_scenario": "red_light"
     }
   },
+  "traffic_light_tampering_ep14": {
+    "frame_t": "traffic_light_tampering_ep14_t.png",
+    "attack": "traffic_light_tampering",
+    "mapped_scenario": "red_light",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.031,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "red_light"
+    }
+  },
   "universal_perturbation_ep0": {
     "frame_t": "universal_perturbation_ep0_t.png",
     "attack": "universal_perturbation",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.536,
-      "red_light": 1,
+      "speed_ratio": 0.809,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
+      "speed_ratio": 0.485,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "hard_brake"
     }
@@ -293,13 +395,13 @@
     "attack": "universal_perturbation",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.57,
+      "speed_ratio": 0.522,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.902,
+      "speed_ratio": 0.261,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "hard_brake"
@@ -316,8 +418,8 @@
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
+      "speed_ratio": 0.838,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "hard_brake"
     }
@@ -327,13 +429,13 @@
     "attack": "universal_perturbation",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.516,
+      "speed_ratio": 0.567,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.609,
+      "speed_ratio": 0.255,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "hard_brake"
@@ -344,75 +446,7 @@
     "attack": "universal_perturbation",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.975,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 0.989,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": "hard_brake"
-    }
-  },
-  "universal_perturbation_ep6": {
-    "frame_t": "universal_perturbation_ep6_t.png",
-    "attack": "universal_perturbation",
-    "mapped_scenario": "hard_brake",
-    "t": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": "hard_brake"
-    }
-  },
-  "universal_perturbation_ep7": {
-    "frame_t": "universal_perturbation_ep7_t.png",
-    "attack": "universal_perturbation",
-    "mapped_scenario": "hard_brake",
-    "t": {
-      "speed_ratio": 0.758,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 0.955,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": "hard_brake"
-    }
-  },
-  "sensor_spoofing_ep0": {
-    "frame_t": "sensor_spoofing_ep0_t.png",
-    "attack": "sensor_spoofing",
-    "mapped_scenario": "hard_brake",
-    "t": {
-      "speed_ratio": 0.876,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 0.0,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": "hard_brake"
-    }
-  },
-  "sensor_spoofing_ep1": {
-    "frame_t": "sensor_spoofing_ep1_t.png",
-    "attack": "sensor_spoofing",
-    "mapped_scenario": "hard_brake",
-    "t": {
-      "speed_ratio": 0.626,
+      "speed_ratio": 0.835,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -424,9 +458,43 @@
       "mapped_scenario": "hard_brake"
     }
   },
-  "sensor_spoofing_ep2": {
-    "frame_t": "sensor_spoofing_ep2_t.png",
-    "attack": "sensor_spoofing",
+  "universal_perturbation_ep6": {
+    "frame_t": "universal_perturbation_ep6_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.867,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep7": {
+    "frame_t": "universal_perturbation_ep7_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.982,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.658,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep8": {
+    "frame_t": "universal_perturbation_ep8_t.png",
+    "attack": "universal_perturbation",
     "mapped_scenario": "hard_brake",
     "t": {
       "speed_ratio": 1.0,
@@ -435,7 +503,109 @@
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.998,
+      "speed_ratio": 0.284,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep10": {
+    "frame_t": "universal_perturbation_ep10_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.861,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.387,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep12": {
+    "frame_t": "universal_perturbation_ep12_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.802,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.481,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep13": {
+    "frame_t": "universal_perturbation_ep13_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.951,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.57,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "universal_perturbation_ep14": {
+    "frame_t": "universal_perturbation_ep14_t.png",
+    "attack": "universal_perturbation",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep0": {
+    "frame_t": "sensor_spoofing_ep0_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.937,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.127,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep1": {
+    "frame_t": "sensor_spoofing_ep1_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.86,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "hard_brake"
@@ -446,7 +616,7 @@
     "attack": "sensor_spoofing",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.312,
+      "speed_ratio": 0.0,
       "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
@@ -463,8 +633,8 @@
     "attack": "sensor_spoofing",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
+      "speed_ratio": 1.0,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
@@ -480,7 +650,7 @@
     "attack": "sensor_spoofing",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.935,
+      "speed_ratio": 0.919,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -497,7 +667,7 @@
     "attack": "sensor_spoofing",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.948,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -514,7 +684,7 @@
     "attack": "sensor_spoofing",
     "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.632,
+      "speed_ratio": 0.884,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
@@ -526,18 +696,137 @@
       "mapped_scenario": "hard_brake"
     }
   },
-  "fake_safety_ep1": {
-    "frame_t": "fake_safety_ep1_t.png",
-    "attack": "fake_safety",
-    "mapped_scenario": "near_stop",
+  "sensor_spoofing_ep8": {
+    "frame_t": "sensor_spoofing_ep8_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
     "t": {
-      "speed_ratio": 0.481,
+      "speed_ratio": 0.893,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.896,
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep9": {
+    "frame_t": "sensor_spoofing_ep9_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.667,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep10": {
+    "frame_t": "sensor_spoofing_ep10_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.63,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep11": {
+    "frame_t": "sensor_spoofing_ep11_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.487,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep12": {
+    "frame_t": "sensor_spoofing_ep12_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.938,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "sensor_spoofing_ep13": {
+    "frame_t": "sensor_spoofing_ep13_t.png",
+    "attack": "sensor_spoofing",
+    "mapped_scenario": "hard_brake",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "hard_brake"
+    }
+  },
+  "fake_safety_ep0": {
+    "frame_t": "fake_safety_ep0_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.775,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.304,
+      "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep1": {
+    "frame_t": "fake_safety_ep1_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.913,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.913,
       "red_light": 0,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
@@ -548,13 +837,13 @@
     "attack": "fake_safety",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.797,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.966,
+      "speed_ratio": 0.797,
       "red_light": 0,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
@@ -565,47 +854,30 @@
     "attack": "fake_safety",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.88,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.875,
-      "red_light": 0,
+      "speed_ratio": 0.586,
+      "red_light": 1,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
     }
   },
-  "fake_safety_ep4": {
-    "frame_t": "fake_safety_ep4_t.png",
+  "fake_safety_ep6": {
+    "frame_t": "fake_safety_ep6_t.png",
     "attack": "fake_safety",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.633,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.523,
-      "red_light": 0,
-      "near_stop": 1,
-      "mapped_scenario": "near_stop"
-    }
-  },
-  "fake_safety_ep5": {
-    "frame_t": "fake_safety_ep5_t.png",
-    "attack": "fake_safety",
-    "mapped_scenario": "near_stop",
-    "t": {
-      "speed_ratio": 0.961,
-      "red_light": 0,
-      "near_stop": 0,
-      "mapped_scenario": null
-    },
-    "t1": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.0,
       "red_light": 0,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
@@ -616,13 +888,64 @@
     "attack": "fake_safety",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 0.867,
+      "speed_ratio": 0.908,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.787,
+      "speed_ratio": 0.25,
+      "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep10": {
+    "frame_t": "fake_safety_ep10_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_safety_ep12": {
+    "frame_t": "fake_safety_ep12_t.png",
+    "attack": "fake_safety",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.965,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep0": {
+    "frame_t": "fake_emergency_ep0_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.364,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.982,
       "red_light": 0,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
@@ -633,13 +956,13 @@
     "attack": "fake_emergency",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
+      "speed_ratio": 1.0,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.0,
+      "speed_ratio": 0.317,
       "red_light": 1,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
@@ -650,14 +973,14 @@
     "attack": "fake_emergency",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 0.692,
-      "red_light": 0,
+      "speed_ratio": 0.0,
+      "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.137,
-      "red_light": 0,
+      "speed_ratio": 0.0,
+      "red_light": 1,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
     }
@@ -667,14 +990,14 @@
     "attack": "fake_emergency",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 0.951,
+      "speed_ratio": 0.847,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 1.0,
-      "red_light": 0,
+      "speed_ratio": 0.163,
+      "red_light": 1,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
     }
@@ -684,13 +1007,47 @@
     "attack": "fake_emergency",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep5": {
+    "frame_t": "fake_emergency_ep5_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.819,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.633,
+      "speed_ratio": 0.545,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep6": {
+    "frame_t": "fake_emergency_ep6_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.927,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.653,
       "red_light": 0,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
@@ -701,24 +1058,24 @@
     "attack": "fake_emergency",
     "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 0.657,
+      "speed_ratio": 1.0,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.504,
-      "red_light": 0,
+      "speed_ratio": 0.0,
+      "red_light": 1,
       "near_stop": 1,
       "mapped_scenario": "near_stop"
     }
   },
-  "sybil_ep0": {
-    "frame_t": "sybil_ep0_t.png",
-    "attack": "sybil",
-    "mapped_scenario": "traffic_jam",
+  "fake_emergency_ep9": {
+    "frame_t": "fake_emergency_ep9_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
     "t": {
-      "speed_ratio": 0.349,
+      "speed_ratio": 0.501,
       "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
@@ -726,8 +1083,59 @@
     "t1": {
       "speed_ratio": 0.0,
       "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep11": {
+    "frame_t": "fake_emergency_ep11_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.593,
+      "red_light": 1,
       "near_stop": 0,
-      "mapped_scenario": "traffic_jam"
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.13,
+      "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep12": {
+    "frame_t": "fake_emergency_ep12_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.811,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.912,
+      "red_light": 0,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
+    }
+  },
+  "fake_emergency_ep14": {
+    "frame_t": "fake_emergency_ep14_t.png",
+    "attack": "fake_emergency",
+    "mapped_scenario": "near_stop",
+    "t": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 1,
+      "mapped_scenario": "near_stop"
     }
   },
   "sybil_ep1": {
@@ -735,13 +1143,13 @@
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.0,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.982,
+      "speed_ratio": 0.378,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "traffic_jam"
@@ -752,13 +1160,13 @@
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 0.888,
+      "speed_ratio": 0.909,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.853,
+      "speed_ratio": 0.545,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "traffic_jam"
@@ -769,14 +1177,14 @@
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 0.709,
+      "speed_ratio": 0.0,
       "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
       "speed_ratio": 0.0,
-      "red_light": 0,
+      "red_light": 1,
       "near_stop": 0,
       "mapped_scenario": "traffic_jam"
     }
@@ -786,8 +1194,8 @@
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 0.0,
-      "red_light": 1,
+      "speed_ratio": 0.577,
+      "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
@@ -803,13 +1211,13 @@
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 0.465,
+      "speed_ratio": 1.0,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.929,
+      "speed_ratio": 0.576,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "traffic_jam"
@@ -820,30 +1228,98 @@
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 0.715,
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep8": {
+    "frame_t": "sybil_ep8_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.918,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 1.0,
+      "speed_ratio": 0.87,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "traffic_jam"
     }
   },
-  "sybil_ep7": {
-    "frame_t": "sybil_ep7_t.png",
+  "sybil_ep10": {
+    "frame_t": "sybil_ep10_t.png",
     "attack": "sybil",
     "mapped_scenario": "traffic_jam",
     "t": {
-      "speed_ratio": 0.808,
+      "speed_ratio": 1.0,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": null
     },
     "t1": {
-      "speed_ratio": 0.77,
+      "speed_ratio": 0.634,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep11": {
+    "frame_t": "sybil_ep11_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.506,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep12": {
+    "frame_t": "sybil_ep12_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 0.825,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.624,
+      "red_light": 0,
+      "near_stop": 0,
+      "mapped_scenario": "traffic_jam"
+    }
+  },
+  "sybil_ep14": {
+    "frame_t": "sybil_ep14_t.png",
+    "attack": "sybil",
+    "mapped_scenario": "traffic_jam",
+    "t": {
+      "speed_ratio": 1.0,
+      "red_light": 1,
+      "near_stop": 0,
+      "mapped_scenario": null
+    },
+    "t1": {
+      "speed_ratio": 0.457,
       "red_light": 0,
       "near_stop": 0,
       "mapped_scenario": "traffic_jam"
